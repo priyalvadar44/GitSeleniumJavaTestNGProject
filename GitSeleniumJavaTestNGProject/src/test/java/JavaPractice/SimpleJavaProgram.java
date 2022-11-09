@@ -6,6 +6,7 @@ public class SimpleJavaProgram {
 
 
 		System.out.println("Welcome to JavaWorld!");
+		System.out.println("Test Sccript!");
 
 	}
 
