@@ -5,3 +5,6 @@ xpath by using ---- normalize-space()
 3) //th[normalize-space(text()='First Name')]
 4) //th[contains(normalize-space(),'First Name'))]
 5) //div[normalize-space(@class)='employee']
+
+
+
