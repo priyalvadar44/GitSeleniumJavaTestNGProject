@@ -16,7 +16,7 @@ public class FirstScript {
         System.out.println("CurrentUrl :"+driver.getCurrentUrl());
         System.out.println("Titele :"+driver.getTitle());
         
-//        driver.close();
+        driver.close();
 
 	}
 
