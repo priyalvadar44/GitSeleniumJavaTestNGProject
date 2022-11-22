@@ -2,24 +2,32 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-09T22:06:07 IST" name="Default suite" finished-at="2022-11-09T22:06:07 IST" duration-ms="45">
+  <suite started-at="2022-11-15T22:55:55 IST" name="Default suite" finished-at="2022-11-15T22:56:16 IST" duration-ms="21504">
     <groups>
     </groups>
-    <test started-at="2022-11-09T22:06:07 IST" name="Default test" finished-at="2022-11-09T22:06:07 IST" duration-ms="45">
-      <class name="TestNGPractice.PriorityAttribute">
-        <test-method signature="cloginTest()[pri:1, instance:TestNGPractice.PriorityAttribute@732c2a62]" started-at="2022-11-09T22:06:07 IST" name="cloginTest" finished-at="2022-11-09T22:06:07 IST" duration-ms="11" status="PASS">
+    <test started-at="2022-11-15T22:55:55 IST" name="Default test" finished-at="2022-11-15T22:56:16 IST" duration-ms="21504">
+      <class name="TestNGPractice.Login_Page_Test">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:TestNGPractice.Login_Page_Test@702b8b12]" started-at="2022-11-15T22:55:55 IST" name="initiate" finished-at="2022-11-15T22:56:03 IST" duration-ms="7881" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cloginTest -->
-        <test-method signature="bregisterTest()[pri:2, instance:TestNGPractice.PriorityAttribute@732c2a62]" started-at="2022-11-09T22:06:07 IST" name="bregisterTest" finished-at="2022-11-09T22:06:07 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- initiate -->
+        <test-method signature="login()[pri:0, instance:TestNGPractice.Login_Page_Test@702b8b12]" started-at="2022-11-15T22:56:03 IST" name="login" finished-at="2022-11-15T22:56:04 IST" duration-ms="732" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bregisterTest -->
-        <test-method signature="alogoutTest()[pri:3, instance:TestNGPractice.PriorityAttribute@732c2a62]" started-at="2022-11-09T22:06:07 IST" name="alogoutTest" finished-at="2022-11-09T22:06:07 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="verifyUser()[pri:0, instance:TestNGPractice.Login_Page_Test@702b8b12]" started-at="2022-11-15T22:56:04 IST" name="verifyUser" finished-at="2022-11-15T22:56:04 IST" depends-on-methods="TestNGPractice.Login_Page_Test.login" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- alogoutTest -->
-      </class> <!-- TestNGPractice.PriorityAttribute -->
+        </test-method> <!-- verifyUser -->
+        <test-method signature="logout()[pri:0, instance:TestNGPractice.Login_Page_Test@702b8b12]" started-at="2022-11-15T22:56:04 IST" name="logout" finished-at="2022-11-15T22:56:14 IST" depends-on-methods="TestNGPractice.Login_Page_Test.verifyUser" duration-ms="10471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:TestNGPractice.Login_Page_Test@702b8b12]" started-at="2022-11-15T22:56:14 IST" name="closeDriver" finished-at="2022-11-15T22:56:16 IST" duration-ms="2298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- TestNGPractice.Login_Page_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
